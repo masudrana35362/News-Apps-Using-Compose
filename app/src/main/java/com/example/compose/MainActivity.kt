@@ -22,11 +22,11 @@ import com.example.compose.ui.theme.NewsAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        WindowCompat.setDecorFitsSystemWindows(window,false)
+        WindowCompat.setDecorFitsSystemWindows(window, false)
         installSplashScreen()
         enableEdgeToEdge()
         setContent {
-            NewsAppTheme (
+            NewsAppTheme(
                 dynamicColor = false
             ) {
 
