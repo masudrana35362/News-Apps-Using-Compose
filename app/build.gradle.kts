@@ -2,7 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias (libs.plugins.dagger.hilt.android)
-    id("org.jetbrains.kotlin.kapt")
+
+    id ("org.jetbrains.kotlin.kapt")
 }
 
 android {
@@ -67,6 +68,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation (libs.kotlin.stdlib)
+
     //Splash Api
     implementation (libs.androidx.core.splashscreen)
     //Compose Navigation
