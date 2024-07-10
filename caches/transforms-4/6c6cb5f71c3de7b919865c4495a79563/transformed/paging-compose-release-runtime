@@ -1,0 +1,17 @@
+androidx.paging.compose.LazyFoundationExtensionsKt
+androidx.paging.compose.LazyFoundationExtensionsKt$itemContentType$1
+androidx.paging.compose.LazyFoundationExtensionsKt$itemKey$1
+androidx.paging.compose.LazyPagingItems
+androidx.paging.compose.LazyPagingItems$collectLoadState$2
+androidx.paging.compose.LazyPagingItems$collectPagingData$2
+androidx.paging.compose.LazyPagingItems$pagingDataPresenter$1
+androidx.paging.compose.LazyPagingItemsKt
+androidx.paging.compose.LazyPagingItemsKt$collectAsLazyPagingItems$1$1
+androidx.paging.compose.LazyPagingItemsKt$collectAsLazyPagingItems$1$1$1
+androidx.paging.compose.LazyPagingItemsKt$collectAsLazyPagingItems$2$1
+androidx.paging.compose.LazyPagingItemsKt$collectAsLazyPagingItems$2$1$1
+androidx.paging.compose.PagingPlaceholderContentType
+androidx.paging.compose.PagingPlaceholderKey
+androidx.paging.compose.PagingPlaceholderKey$Companion
+androidx.paging.compose.PagingPlaceholderKey$Companion$CREATOR$1
+androidx.paging.compose.PagingPlaceholderKey_androidKt

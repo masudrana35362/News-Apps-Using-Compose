@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.accompanist",
+    "module": "accompanist-systemuicontroller",
+    "version": "0.31.4-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accompanist-systemuicontroller-0.31.4-beta.aar",
+          "url": "accompanist-systemuicontroller-0.31.4-beta.aar",
+          "size": 10191,
+          "sha512": "ef7d5d3d0a73f57687a59eb0b021240d9ad11fc47de5916d05b0352b601d21d5782f3956fd83898d9821b43bfa32b81f9ed3f60aa9f56f7d12c47d84cd241c8b",
+          "sha256": "1e31ba63b56075e15b05d6585947d6c8606828ead8e68c7dbcfc271e519447ab",
+          "sha1": "a68edd850671668a055ccc095cf8a7945104d5d4",
+          "md5": "1c73adcc47da8bd95370c70e346027d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.5.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accompanist-systemuicontroller-0.31.4-beta.aar",
+          "url": "accompanist-systemuicontroller-0.31.4-beta.aar",
+          "size": 10191,
+          "sha512": "ef7d5d3d0a73f57687a59eb0b021240d9ad11fc47de5916d05b0352b601d21d5782f3956fd83898d9821b43bfa32b81f9ed3f60aa9f56f7d12c47d84cd241c8b",
+          "sha256": "1e31ba63b56075e15b05d6585947d6c8606828ead8e68c7dbcfc271e519447ab",
+          "sha1": "a68edd850671668a055ccc095cf8a7945104d5d4",
+          "md5": "1c73adcc47da8bd95370c70e346027d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "accompanist-systemuicontroller-0.31.4-beta-sources.jar",
+          "url": "accompanist-systemuicontroller-0.31.4-beta-sources.jar",
+          "size": 3737,
+          "sha512": "9599088b5f5d7bc167bfc9d942f2c8615f8bce65955cb1f4459dc3d0dfd29e50f3dbc60f8a14fbeecd44adffc2bb3461b8f244bcd247292af6284dc514206ae4",
+          "sha256": "05e831529acc1d0360fc974bc5c25fdc6610ebc97e8b820168556e2d14557843",
+          "sha1": "59c1e5e87268067d50f43d51ad7dd76dc8ce26ec",
+          "md5": "befc862f541e041667ee5c15e8443e23"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "accompanist-systemuicontroller-0.31.4-beta-javadoc.jar",
+          "url": "accompanist-systemuicontroller-0.31.4-beta-javadoc.jar",
+          "size": 270000,
+          "sha512": "c182388f257a5deb4847ffeda1f4b14047ed32db806a9609f42a037ead7c35b1703cf876c319b89e1d3fe903617b202b5593d27eab01b97f7d803d36b6542eb3",
+          "sha256": "b99a763f097feb94c89ef4f88d48c2b5d2fe8d2b785a4e2e3b36c81c8b291771",
+          "sha1": "2f72ba1c2295bb5ad4294bd54624429e1a913ce2",
+          "md5": "4b9b0f524f083018029ab599a5068687"
+        }
+      ]
+    }
+  ]
+}
