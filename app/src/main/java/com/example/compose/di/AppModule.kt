@@ -14,6 +14,7 @@ import com.example.compose.domain.usecases.app_entry.AppEntryUseCases
 import com.example.compose.domain.usecases.app_entry.ReadAppEntry
 import com.example.compose.domain.usecases.app_entry.SaveAppEntry
 import com.example.compose.domain.usecases.news.DeleteArticle
+import com.example.compose.domain.usecases.news.GetArticle
 import com.example.compose.domain.usecases.news.GetNews
 import com.example.compose.domain.usecases.news.NewsUseCases
 import com.example.compose.domain.usecases.news.SearchNews
@@ -76,7 +77,8 @@ object AppModule {
             searchNews = SearchNews(newsRepository),
             upsertArticle = UpsertArticle(newsDao),
             deleteArticle = DeleteArticle(newsDao),
-            selectArticles = GetArticles(newsDao)
+            getArticles = GetArticles(newsDao),
+            getArticle = GetArticle(newsDao)
         )
     }
 
