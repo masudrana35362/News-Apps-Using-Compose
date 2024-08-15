@@ -19,4 +19,6 @@ object Dimens {
 
     val PageIndicatorWidth = 52.dp
 
+    val ArticleImageHeight = 248.dp
+
 }
